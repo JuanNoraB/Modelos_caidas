@@ -1,0 +1,32 @@
+# videos
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.gif
+
+# modelos
+*.pt
+*.onnx
+*.pth
+*.h5
+*.tflite
+*.safetensors
+Modelos/
+
+# datasets y resultados de ultralytics
+Dataset_caidas/
+Dataset_ADL/
+runs/
+
+# comprimidos
+*.zip
+
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+
+# logs
+*.log

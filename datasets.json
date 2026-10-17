@@ -1,0 +1,109 @@
+{
+  "fall": {
+    "GMDCSA24": {
+      "tipo": "video",
+      "carpetas": {
+        "Dataset_caidas/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/Subject 1/Fall": 16,
+        "Dataset_caidas/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/Subject 2/Fall": 25,
+        "Dataset_caidas/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/Subject 3/Fall": 21,
+        "Dataset_caidas/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/Subject 4/Fall": 17
+      }
+    },
+    "IndoorAction": {
+      "tipo": "video",
+      "carpetas": {
+        "Dataset_ADL/IndoorActionDataset/IndoorActionDataset-video/test/falling down": 16,
+        "Dataset_ADL/IndoorActionDataset/IndoorActionDataset-video/train/falling down": 34,
+        "Dataset_ADL/IndoorActionDataset/IndoorActionDataset-video/validation/falling down": 11
+      }
+    },
+    "CHATGPT": {
+      "tipo": "imagen",
+      "carpetas": {
+        "Dataset_caidas/CHATGPT/1": 3,
+        "Dataset_caidas/CHATGPT/10": 3,
+        "Dataset_caidas/CHATGPT/11": 3,
+        "Dataset_caidas/CHATGPT/12": 3,
+        "Dataset_caidas/CHATGPT/13": 3,
+        "Dataset_caidas/CHATGPT/14": 3,
+        "Dataset_caidas/CHATGPT/15": 3,
+        "Dataset_caidas/CHATGPT/2": 3,
+        "Dataset_caidas/CHATGPT/3": 3,
+        "Dataset_caidas/CHATGPT/4": 3,
+        "Dataset_caidas/CHATGPT/5": 3,
+        "Dataset_caidas/CHATGPT/6": 3,
+        "Dataset_caidas/CHATGPT/7": 3,
+        "Dataset_caidas/CHATGPT/8": 3,
+        "Dataset_caidas/CHATGPT/9": 3
+      }
+    },
+    "CCTV": {
+      "tipo": "imagen",
+      "nota": "todas las imagenes tienen una persona tendida (laying); asumido como caida",
+      "carpetas": {
+        "/home/juanchx/.cache/kagglehub/datasets/simuletic/cctv-incident-dataset-fall-and-lying-down-detection/versions/1/laying_dataset/images": 111
+      }
+    }
+  },
+  "no_fall": {
+    "GMDCSA24": {
+      "tipo": "video",
+      "carpetas": {
+        "Dataset_caidas/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/Subject 1/ADL": 16,
+        "Dataset_caidas/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/Subject 2/ADL": 23,
+        "Dataset_caidas/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/Subject 3/ADL": 22,
+        "Dataset_caidas/GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos/Subject 4/ADL": 20
+      }
+    },
+    "IndoorAction": {
+      "tipo": "video",
+      "nota": "sin 'lying on the floor' (ambigua)",
+      "carpetas": {
+        "Dataset_ADL/IndoorActionDataset/IndoorActionDataset-video/test/blowing nose or sneezing": 15,
+        "Dataset_ADL/IndoorActionDataset/IndoorActionDataset-video/train/blowing nose or sneezing": 38,
+        "Dataset_ADL/IndoorActionDataset/IndoorActionDataset-video/validation/blowing nose or sneezing": 10,
+        "Dataset_ADL/IndoorActionDataset/IndoorActionDataset-video/test/cleaning": 34,
+        "Dataset_ADL/IndoorActionDataset/IndoorActionDataset-video/train/cleaning": 55,
+        "Dataset_ADL/IndoorActionDataset/IndoorActionDataset-video/validation/cleaning": 17,
+        "Dataset_ADL/IndoorActionDataset/IndoorActionDataset-video/test/eating": 32,
+        "Dataset_ADL/IndoorActionDataset/IndoorActionDataset-video/train/eating": 57,
+        "Dataset_ADL/IndoorActionDataset/IndoorActionDataset-video/validation/eating": 18,
+        "Dataset_ADL/IndoorActionDataset/IndoorActionDataset-video/test/no_action": 32,
+        "Dataset_ADL/IndoorActionDataset/IndoorActionDataset-video/train/no_action": 57,
+        "Dataset_ADL/IndoorActionDataset/IndoorActionDataset-video/validation/no_action": 14,
+        "Dataset_ADL/IndoorActionDataset/IndoorActionDataset-video/test/sitting down": 29,
+        "Dataset_ADL/IndoorActionDataset/IndoorActionDataset-video/train/sitting down": 66,
+        "Dataset_ADL/IndoorActionDataset/IndoorActionDataset-video/validation/sitting down": 22,
+        "Dataset_ADL/IndoorActionDataset/IndoorActionDataset-video/test/standing up": 41,
+        "Dataset_ADL/IndoorActionDataset/IndoorActionDataset-video/train/standing up": 95,
+        "Dataset_ADL/IndoorActionDataset/IndoorActionDataset-video/validation/standing up": 30,
+        "Dataset_ADL/IndoorActionDataset/IndoorActionDataset-video/test/walking": 90,
+        "Dataset_ADL/IndoorActionDataset/IndoorActionDataset-video/train/walking": 158,
+        "Dataset_ADL/IndoorActionDataset/IndoorActionDataset-video/validation/walking": 34,
+        "Dataset_ADL/IndoorActionDataset/IndoorActionDataset-video/test/watching tv": 43,
+        "Dataset_ADL/IndoorActionDataset/IndoorActionDataset-video/train/watching tv": 60,
+        "Dataset_ADL/IndoorActionDataset/IndoorActionDataset-video/validation/watching tv": 19
+      }
+    },
+    "Edinburgh": {
+      "tipo": "video",
+      "nota": "grabaciones de dias enteros (0.7 a 3 GB c/u); sin anotaciones locales, pueden contener caidas",
+      "carpetas": {
+        "Dataset_ADL/Edinburgh office monitoring video dataset": 6
+      }
+    }
+  },
+  "fall_adl": {
+    "Le2i": {
+      "tipo": "video",
+      "carpetas": {
+        "/home/juanchx/.cache/kagglehub/datasets/tuyenldvn/falldataset-imvia/versions/2/Coffee_room_01/Coffee_room_01/Videos": 48,
+        "/home/juanchx/.cache/kagglehub/datasets/tuyenldvn/falldataset-imvia/versions/2/Coffee_room_02/Coffee_room_02/Videos": 22,
+        "/home/juanchx/.cache/kagglehub/datasets/tuyenldvn/falldataset-imvia/versions/2/Home_01/Home_01/Videos": 30,
+        "/home/juanchx/.cache/kagglehub/datasets/tuyenldvn/falldataset-imvia/versions/2/Home_02/Home_02/Videos": 30,
+        "/home/juanchx/.cache/kagglehub/datasets/tuyenldvn/falldataset-imvia/versions/2/Lecture_room/Lecture room": 27,
+        "/home/juanchx/.cache/kagglehub/datasets/tuyenldvn/falldataset-imvia/versions/2/Office/Office": 33
+      }
+    }
+  }
+}
